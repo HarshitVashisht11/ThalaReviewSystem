@@ -1,4 +1,3 @@
-// components/VideoRenderer.js
 import React, { useEffect, useState } from 'react';
 import { IoMdCloseCircle } from "react-icons/io";
 

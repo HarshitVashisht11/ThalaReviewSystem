@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa'; // Import the GitHub icon from react-icons library
+import { FaGithub } from 'react-icons/fa';
 
 const Navbar = () => {
   return (

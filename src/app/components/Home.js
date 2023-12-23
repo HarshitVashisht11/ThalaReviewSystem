@@ -1,6 +1,4 @@
-// components/Home.js
 "use client";
-// components/Home.js
 import React, { useState } from 'react';
 import { generateVideoContent } from '../../../utils/api';
 import Modal from 'react-modal';
@@ -17,20 +15,18 @@ const Home = () => {
       const paths = await generateVideoContent(inputValue);
       setVideoPaths(paths);
 
-      // Get the generated text from the API
       const text = await generateVideoContent(inputValue, true);
       setGeneratedText(text);
 
       setModalIsOpen(true);
     } catch (error) {
       console.error(error);
-      // Handle errors
     }
   };
 
   const closeModal = () => {
     setModalIsOpen(false);
-    setVideoPaths([]); // Clear video paths
+    setVideoPaths([]); 
     setGeneratedText('');
   };
 
