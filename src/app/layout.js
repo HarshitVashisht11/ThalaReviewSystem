@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Thala For a Reason',
-  description: 'Know your reason',
+  description: 'Unleash the Thala magic',
 }
 
 export default function RootLayout({ children }) {
