@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import { generateVideoContent } from '../../../utils/api';
+import { generateVideoContent } from '../../../utils/generateVideoContent';
 import Modal from 'react-modal';
 import VideoRenderer from './VideoRenderer';
 
