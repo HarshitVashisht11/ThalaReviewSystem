@@ -9,9 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ffmpeg/core": "^0.12.5",
+    "@ffmpeg/ffmpeg": "^0.12.9",
+    "@ffmpeg/util": "^0.12.1",
+    "dotenv": "^16.3.1",
+    "next": "14.0.4",
+    "next-videos": "^1.4.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "react-modal": "^3.16.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
