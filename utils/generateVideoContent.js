@@ -26,7 +26,7 @@ const generateVideoContent = async (input) => {
         return `${input.split('').join('+')} = ${sumOfDigits} Thala for no reason 😔`;
       }
     } else {
-      if (lowerCaseInput === '7' || lowerCaseInput === 'seven') {
+      if (lowerCaseInput === '7' || lowerCaseInput === 'seven' || lowerCaseInput === 'thala' ||lowerCaseInput === 'msd'||lowerCaseInput === 'dhoni' ||lowerCaseInput === 'ms dhoni' ||lowerCaseInput === "mahendra singh dhoni") {
         return 'Thala for a reason';
       } else {
         const letterCount = lowerCaseInput.replace(/\s/g, '').length;
